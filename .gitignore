@@ -3,3 +3,4 @@ datastore/settings.json
 *.pdf
 archives/*
 __pycache__/main.cpython-310.pyc
+*.pyc
