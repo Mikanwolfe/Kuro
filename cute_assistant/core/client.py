@@ -53,6 +53,7 @@ async def on_ready():
 
 async def handle_upload(message) -> str:
     ctx = await client.get_context(message)
+    user = message.author
     async with ctx.typing():
         if message.attachments:
             for attachment in message.attachments:
