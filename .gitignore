@@ -7,7 +7,6 @@ __pycache__/main.cpython-310.pyc
 datastore/config.json
 *.log
 poetry.ipynb
-datastore/responses.json
 datastore/memories.json
 datastore/data.json
 datastore/conversations.json
