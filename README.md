@@ -1,4 +1,4 @@
-# ![maplelogo](README.assets/maplelogo.png
+
 
 ![kuro](README.assets/kuro-16834542625961.png)
 
