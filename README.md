@@ -4,6 +4,12 @@
 
 A natural-language cute personal assistant with dynamic long-term memory powered by a vector database.
 
+Can your ChatGPT do this?
+
+![image-20230507212930258](README.assets/image-20230507212930258.png)
+
+***
+
 Kuro is a first step towards a personal assistant using Discord. Able to gather and process text notes - from work, school, or your personal diary - Kuro is able to respond, summarise, and extend on ChatGPT's abilities. She does this all in the form of a cute assistant.
 
 The goal for this bot was to create my own personal assistant. 
