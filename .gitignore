@@ -10,3 +10,5 @@ poetry.ipynb
 datastore/memories.json
 datastore/data.json
 datastore/conversations.json
+cute_assistant/database.py
+services/chat.py
