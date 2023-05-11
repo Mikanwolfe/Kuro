@@ -111,6 +111,17 @@ async def on_message(message):
     pprint.pprint(selected_memories)
     print(" --- END --- ")
     memory_shards = []
+
+    if config['memory_log']:
+        for ch in config['memory_log']:
+            send_ch = client.get_channel(ch)
+            for memory in selected_memories:
+                await send_ch.send('> ' + memory['text'])
+                #react to delete these heheh
+
+    for result in selected_memories:
+        memory_shards.append(result["text"])
+
     for result in selected_memories:
         memory_shards.append(result["text"])
 
